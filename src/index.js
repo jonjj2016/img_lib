@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App.jsx';
 import LitetBox from './LiteBox';
+import DragDrop from './DragAndDrop/DragDrop';
+import Selected from './Selection/Selected';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LitetBox />
+    <Selected />
+    <DragDrop />
   </React.StrictMode>,
   document.getElementById('root')
 );
